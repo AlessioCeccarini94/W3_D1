@@ -5,7 +5,7 @@
 //
 //NOME E COGNOME CLIENTI 1982:
 //
-//--SELECT * FROM public.client WHERE EXTRACT( YEAR FROM date_of_birth)=1982
+//--SELECT name,surname FROM public.client WHERE EXTRACT( YEAR FROM date_of_birth)=1982
 //
 //
 //FATTURE CON IMPORRTO<1000:
